@@ -10,36 +10,102 @@
 
 body {
   font-family: Roboto, sans-serif;
-  background-color: var{var(--main-backgroung-color)};
-  
+  background-color: var(--main-backgroung-color);
+  text-decoration: none;
+  list-style: none;
 }
-  
 
-.list{
-    list-style: none;
+.list {
+  list-style: none;
+  text-decoration: none;
+}
 
 /* ЛОГОТИП */
 
-.logo-header .logo1{
-    color: var(--accent-color);
+.logo-header .logo1 {
+  color: var(--accent-color);
 }
 
-.logo-header .logo2{
-    color: #000000;
+.logo-header .logo2 {
+  color: #000000;
 }
-.logo-footer .logo1{
-     color: var(--accent-color);
+.logo-footer .logo1 {
+  color: var(--accent-color);
 }
-.logo-footer .logo2{
-    color:var(--primary-white);
+.logo-footer .logo2 {
+  color: var(--primary-white);
 }
 
 /* ХЭДЕР */
-.site-nav .link{
-    color: var(--heading-color);
-
+.site-nav .link {
+  color: var(--heading-color);
+  text-decoration: none;
 }
 
-.contacts .link{
-    color: var(--text-color);
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.contacts .link {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* MAIN */
+
+h2,
+h3 {
+  color: var(--heading-color);
+}
+
+/* HERO */
+.hero-title {
+  color: var(--primary-white);
+}
+.button {
+  background-color: var(--accent-color);
+  color: var(--primary-white);
+}
+
+/* ПРЕИМУЩЕСТВА И НАША КОМАНДА */
+
+.section-description {
+  color: var(--text-color);
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--footer-color);
+}
+
+.adress {
+  color: var(--primary-white);
+}
+
+/* BUTTONS */
+.filter .button {
+  background-color: #f5f4fa;
+  color: var(--heading-color);
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white);
+}
+
+.portfolio .link {
+  text-decoration: none;
+  list-style: none;
 }
