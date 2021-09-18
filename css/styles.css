@@ -1,0 +1,36 @@
+:root {
+  --accent-color: #2196f3;
+  --text-color: #757575;
+  --heading-color: #212121;
+  --footer-color: #2f303a;
+  --primary-white: #ffffff;
+  --main-backgroung-color: #e5e5e5;
+  --header-color: #ececec;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: var{var(--main-backgroung-color)};
+  
+}
+  
+
+.list{
+    list-style: none;
+
+/* ЛОГОТИП */
+
+.logo-header .logo1{
+    color: var(--accent-color);
+}
+.logo-header .logo2{
+    color: #000000;
+}
+.logo-footer .logo1{
+     color: var(--accent-color);
+}
+.logo-footer .logo2{
+    color:var(--primary-white);
+}
+
+/* ХЭДЕР */
