@@ -34,3 +34,11 @@ body {
 }
 
 /* ХЭДЕР */
+.site-nav .link{
+    color: var(--heading-color);
+
+}
+
+.contacts .link{
+    color: var(--text-color);
+}
