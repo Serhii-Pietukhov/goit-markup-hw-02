@@ -11,8 +11,6 @@
 body {
   font-family: Roboto, sans-serif;
   background-color: var(--main-backgroung-color);
-  text-decoration: none;
-  list-style: none;
 }
 
 .list {
@@ -21,6 +19,13 @@ body {
 }
 
 /* ЛОГОТИП */
+
+.logo-header {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
 
 .logo-header .logo1 {
   color: var(--accent-color);
