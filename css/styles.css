@@ -62,7 +62,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.site-nav .link.current {
+link .current {
   color: var(--accent-color);
 }
 
